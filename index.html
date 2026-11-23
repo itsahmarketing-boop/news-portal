@@ -32,9 +32,11 @@ footer{background:var(--deep);color:#cfc8ea;margin-top:36px;padding:28px 0}foote
 <script>
 var CATS=[{k:"national",bn:"জাতীয়",en:"National"},{k:"economy",bn:"অর্থনীতি",en:"Economy"},{k:"islam",bn:"ইসলাম",en:"Islam"},{k:"world",bn:"বিশ্ব",en:"World"},{k:"business",bn:"ব্যবসা",en:"Business"},{k:"tech",bn:"প্রযুক্তি",en:"Technology"},{k:"sports",bn:"খেলা",en:"Sports"}];
 var LANG="bn",DATA=[];
+var COVER={national:"https://commons.wikimedia.org/wiki/Special:FilePath/Jatiyo_Sangshad_Bhaban_%28Roehl%29.jpg?width=800",economy:"https://commons.wikimedia.org/wiki/Special:FilePath/Sena-Kalyan-Bhaban.jpg?width=800",business:"https://commons.wikimedia.org/wiki/Special:FilePath/City_Center%2C_Motijheel%2C_Dhaka_%2828568173271%29.jpg?width=800",islam:"https://commons.wikimedia.org/wiki/Special:FilePath/Baitul_Mokarrom_National_Mosque%2C_Dhaka.jpg?width=800"};
+var DEFCOVER="https://commons.wikimedia.org/wiki/Special:FilePath/Dhaka_City_%2834799050965%29.jpg?width=800";
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
 function tx(it,f){return LANG==="en"?(it[f+"En"]||it[f+"Bn"]||""):(it[f+"Bn"]||it[f+"En"]||"")}
-function thumb(it,chip){var img=it.img?("/"+it.img):"";var c=chip?('<span class="kchip">'+esc(catName(it.cat))+"</span>"):"";return '<div class="thumb"'+(img?"":' class="thumb noimg"')+'>'+(img?'<img src="'+esc(img)+'" onerror="this.closest(\'.thumb\').classList.add(\'noimg\')" alt="">':"")+c+'<div class="mk">AH MARKETING</div></div>'}
+function thumb(it,chip){var img=it.img?("/"+it.img):(COVER[it.cat]||DEFCOVER);var c=chip?('<span class="kchip">'+esc(catName(it.cat))+"</span>"):"";return '<div class="thumb"><img src="'+esc(img)+'" onerror="this.closest(\'.thumb\').classList.add(\'noimg\')" alt="">'+c+'<div class="mk">AH MARKETING</div></div>'}
 function catName(k){for(var i=0;i<CATS.length;i++)if(CATS[i].k===k)return LANG==="en"?CATS[i].en:CATS[i].bn;return k}
 function card(it){return '<a class="card" href="'+esc(it.url||("a/"+it.id+".html"))+'">'+thumb(it,0)+'<div class="k">'+esc(catName(it.cat))+'</div><h4>'+esc(tx(it,"title"))+'</h4><p>'+esc(tx(it,"sum")||tx(it,"sub"))+'</p></a>'}
 function render(){
