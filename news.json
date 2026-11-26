@@ -1,5 +1,23 @@
 [
  {
+  "id": "n-amwwy175a826",
+  "cat": "national",
+  "date": "2026-11-25T18:00:00.000Z",
+  "url": "a/n-amwwy175a826.html",
+  "titleBn": "জনআকাঙ্ক্ষা বাস্তবায়নে কাজ করছে সরকার",
+  "titleEn": "",
+  "subBn": "",
+  "subEn": "",
+  "sumBn": "জনআকাঙ্ক্ষা বাস্তবায়নে কাজ করছে সরকার কালবেলা",
+  "sumEn": "",
+  "img": "",
+  "imgCredit": "",
+  "author": "সূত্র: কালবেলা",
+  "breaking": false,
+  "lead": false,
+  "pinned": false
+ },
+ {
   "id": "n-amwwgvztj629",
   "cat": "islam",
   "date": "2026-11-25T16:11:10.000Z",
@@ -1134,6 +1152,24 @@
   "pinned": false
  },
  {
+  "id": "n-amwwy16re274",
+  "cat": "national",
+  "date": "2026-11-21T02:44:00.000Z",
+  "url": "a/n-amwwy16re274.html",
+  "titleBn": "আজ ঢাকায় জামায়াতের বিক্ষোভ সমাবেশ | রাজনীতি | সর্বশেষ সংবাদ | আজকের খবর",
+  "titleEn": "",
+  "subBn": "",
+  "subEn": "",
+  "sumBn": "আজ ঢাকায় জামায়াতের বিক্ষোভ সমাবেশ | রাজনীতি | সর্বশেষ সংবাদ | আজকের খবর বাংলাদেশ বুলেটিন",
+  "sumEn": "",
+  "img": "",
+  "imgCredit": "",
+  "author": "সূত্র: বাংলাদেশ বুলেটিন",
+  "breaking": false,
+  "lead": false,
+  "pinned": false
+ },
+ {
   "id": "n-amwvile0p94",
   "cat": "sports",
   "date": "2026-11-21T02:15:00.000Z",
@@ -1363,6 +1399,24 @@
   "img": "",
   "imgCredit": "",
   "author": "সূত্র: Bangla Tribune",
+  "breaking": false,
+  "lead": false,
+  "pinned": false
+ },
+ {
+  "id": "n-amwwy16re510",
+  "cat": "national",
+  "date": "2026-11-06T08:00:00.000Z",
+  "url": "a/n-amwwy16re510.html",
+  "titleBn": "চাপে পড়ার পর হৃদয়-মুশফিকের প্রতিরোধে দিন শেষ করল বাংলাদেশ",
+  "titleEn": "",
+  "subBn": "",
+  "subEn": "",
+  "sumBn": "চাপে পড়ার পর হৃদয়-মুশফিকের প্রতিরোধে দিন শেষ করল বাংলাদেশ Somoy News",
+  "sumEn": "",
+  "img": "",
+  "imgCredit": "",
+  "author": "সূত্র: Somoy News",
   "breaking": false,
   "lead": false,
   "pinned": false
