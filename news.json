@@ -1,5 +1,23 @@
 [
  {
+  "id": "n-amwzswwol265",
+  "cat": "national",
+  "date": "2026-11-28T02:24:00.000Z",
+  "url": "a/n-amwzswwol265.html",
+  "titleBn": "ঢাকার বাতাসে বিষ, শীর্ষে পাকিস্তানের লাহোর | আবহাওয়া | সর্বশেষ সংবাদ | আজকের খবর",
+  "titleEn": "",
+  "subBn": "",
+  "subEn": "",
+  "sumBn": "ঢাকার বাতাসে বিষ, শীর্ষে পাকিস্তানের লাহোর | আবহাওয়া | সর্বশেষ সংবাদ | আজকের খবর বাংলাদেশ বুলেটিন",
+  "sumEn": "",
+  "img": "",
+  "imgCredit": "",
+  "author": "সূত্র: বাংলাদেশ বুলেটিন",
+  "breaking": false,
+  "lead": false,
+  "pinned": false
+ },
+ {
   "id": "n-amwzbrnkw752",
   "cat": "business",
   "date": "2026-11-27T18:23:12.000Z",
@@ -2029,6 +2047,24 @@
   "img": "",
   "imgCredit": "",
   "author": "সূত্র: বাংলাদেশ বুলেটিন",
+  "breaking": false,
+  "lead": false,
+  "pinned": false
+ },
+ {
+  "id": "n-amwzswydt341",
+  "cat": "business",
+  "date": "2026-11-15T08:00:00.000Z",
+  "url": "a/n-amwzswydt341.html",
+  "titleBn": "দেশে ব্যবসার খরচ বেড়েছে ৭০% প্রতিষ্ঠানের, আরও বাড়ার শঙ্কা",
+  "titleEn": "",
+  "subBn": "",
+  "subEn": "",
+  "sumBn": "দেশে ব্যবসার খরচ বেড়েছে ৭০% প্রতিষ্ঠানের, আরও বাড়ার শঙ্কা প্রথম আলো",
+  "sumEn": "",
+  "img": "",
+  "imgCredit": "",
+  "author": "সূত্র: প্রথম আলো",
   "breaking": false,
   "lead": false,
   "pinned": false
